@@ -1,0 +1,17 @@
+[
+
+	{ "keys": ["ctrl+shift+."], "command": "erb", "context":
+	[
+	{ "key": "selector", "operator": "equal", "operand": "text.html.ruby, text.haml, source.yaml, source.css, source.scss, source.js, source.coffee" }
+	]
+	},
+
+	{ "keys": ["f12"], "command": "reindent", "args": {"single_line": false} },
+
+	{ "keys": ["shift+enter"], "command": "insert_snippet", "args": {"contents": "<br>"} },
+
+	{ "keys": ["ctrl+b"], "command": "insert_snippet", "args": {"contents": "<b>${0:$SELECTION}</b>"} },
+
+	{ "keys": ["ctrl+i"], "command": "insert_snippet", "args": {"contents": "<i>${0:$SELECTION}</i>"} }
+
+]

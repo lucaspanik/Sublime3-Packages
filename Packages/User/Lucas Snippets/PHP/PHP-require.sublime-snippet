@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[<?${TM_PHP_OPEN_TAG:php} require '${1:file}'; ?>]]></content>
+    <tabTrigger>require</tabTrigger>
+    <scope>text.html - source</scope>
+    <description>&lt;?php require (…) ?&gt;</description>
+</snippet>

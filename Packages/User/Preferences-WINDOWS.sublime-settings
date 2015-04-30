@@ -1,0 +1,35 @@
+{
+	"charset": "utf-8",
+	"color_scheme": "Packages/User/Lucas Moraes Monokai Extended Bright (SL).tmTheme",
+	"default_line_ending": "unix",
+	"detect_indentation": true,
+	"enable_tab_scrolling": true,
+	"ensure_newline_at_eof_on_save": false,
+	"font_size": 9,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"hot_exit": true,
+	"ignored_packages":
+	[
+		"JavaScriptNext - ES6 Syntax",
+		"Vintage"
+	],
+	"indent_subsequent_lines": true,
+	"line_padding_bottom": 0,
+	"line_padding_top": 0,
+	"match_brackets": true,
+	"match_brackets_braces": true,
+	"match_brackets_content": true,
+	"match_tags": true,
+	"overlay_scroll_bars": "disable",
+	"shift_tab_unindent": false,
+	"show_encoding": true,
+	"soda_classic_tabs": false,
+	"soda_folder_icons": true,
+	"tab_size": 3,
+	"tabs_large": true,
+	"theme": "Lucas Moraes.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"use_simple_full_screen": false
+}

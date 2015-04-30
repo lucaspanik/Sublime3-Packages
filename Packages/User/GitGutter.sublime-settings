@@ -1,0 +1,35 @@
+{
+  // Custom path to git binary when not in PATH
+  "git_binary": "",
+
+  // Modo Live avalia mudanças cada arquivo tempo é modificado,
+  // Definir false para desativar a avaliação após cada entrada
+  "live_mode": false,
+
+  // Mudar o modo de foco avalia mudanças cada vez que uma vista recebe o foco
+  // Definir false para desativar a avaliação quando mudar pontos de vista
+  "focus_change_mode": false,
+
+  // Quando definido como verdadeiro GitGutter executado de forma assíncrona em um segmento separado
+  // Isso pode causar um pequeno atraso entre a modificação e a mudança ícone
+  // Mas pode aumentar o desempenho muito se necessário.
+  "non_blocking": false,
+
+  // Ao usar o modo non_blocking, atualização atraso de ícones da calha pelo
+  // Seguinte montante (em milissegundos).
+  "debounce_delay": 1000,
+
+  // Determina se GitGutter ignora espaços em branco em arquivos modificados.
+  // Definir "none" para garantir espaço em branco é considerado no diff
+  // Definir "tudo" para ignorar todos os espaços em branco
+  // Set "EOL" para apenas ignorar espaços em branco no final das linhas
+  "ignore_whitespace": "none",
+
+  // Adicionar um marcador especial em arquivos untracked
+  "show_markers_on_untracked_file": true,
+
+  // Add --patience switch to git diff command. See
+  // http://bramcohen.livejournal.com/73318.html for
+  // an example of why you might need this.
+  "patience": true
+}

@@ -1,0 +1,33 @@
+[
+
+   { "keys": ["ctrl+shift+."], "command": "erb", "context":[
+      { "key": "selector", "operator": "equal", "operand": "text.html.ruby, text.haml, source.yaml, source.css, source.scss, source.js, source.coffee" }
+   ]},
+
+   { "keys": ["f12"], "command": "reindent", "args": {"single_line": false} },
+
+   { "keys": ["shift+enter"], "command": "insert_snippet", "args": {"contents": "<br>"} },
+
+   { "keys": ["ctrl+b"], "command": "insert_snippet", "args": {"contents": "<b>${0:$SELECTION}</b>"} },
+   { "keys": ["ctrl+i"], "command": "insert_snippet", "args": {"contents": "<i>${0:$SELECTION}</i>"} },
+
+
+   { "keys": ["ctrl+d"], "command": "find_under_expand" },
+   { "keys": ["ctrl+k", "ctrl+d"], "command": "find_under_expand_skip" },
+   { "keys": ["ctrl+alt+d"], "command": "dpaste"},
+
+   { "keys": ["ctrl+k", "ctrl+u"], "command": "upper_case" },
+   { "keys": ["ctrl+k", "ctrl+l"], "command": "lower_case" },
+
+   { "keys": ["ctrl+space"], "command": "auto_complete" },
+   { "keys": ["ctrl+space"], "command": "replace_completion_with_auto_complete", "context":
+      [
+      { "key": "last_command", "operator": "equal", "operand": "insert_best_completion" },
+      { "key": "auto_complete_visible", "operator": "equal", "operand": false },
+      { "key": "setting.tab_completion", "operator": "equal", "operand": true }
+      ]
+   },
+
+   { "keys": ["ctrl+'"], "command": "show_panel", "args": {"panel": "console", "toggle": true} }
+
+]

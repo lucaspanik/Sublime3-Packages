@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[<?${TM_PHP_OPEN_TAG:php} include_once '${1:file}'; ?>]]></content>
+    <tabTrigger>include_once</tabTrigger>
+    <scope>text.html - source</scope>
+    <description>&lt;?php include_once (…) ?&gt;</description>
+</snippet>

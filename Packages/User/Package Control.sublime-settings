@@ -1,0 +1,53 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"AlignTab",
+		"ApacheConf.tmLanguage",
+		"AutoFileName",
+		"BracketHighlighter",
+		"BufferScroll",
+		"Color Highlighter",
+		"ColorPicker",
+		"Comment-Snippets",
+		"CSS3",
+		"CSSFontFamily",
+		"DocBlockr",
+		"Emmet",
+		"FileDiffs",
+		"Git",
+		"GitCommitMsg",
+		"GitGutter",
+		"Github Tools",
+		"HTML5",
+		"HTMLAttributes",
+		"INI",
+		"Javascript Beautify",
+		"JavaScriptNext - ES6 Syntax",
+		"jQuery",
+		"JsFormat",
+		"Line Endings Unify",
+		"LineEndings",
+		"Numix Theme",
+		"Open Folder",
+		"Open-Include",
+		"Package Control",
+		"PackageResourceViewer",
+		"PhpDoc",
+		"SideBarEnhancements",
+		"Slugify",
+		"SublimeLinter",
+		"SublimeLinter-jshint",
+		"SublimeLinter-php",
+		"Theme - Praxis",
+		"Theme - Soda",
+		"VBScript"
+	],
+	"repositories":
+	[
+		"https://github.com/jdc0589/JsFormat"
+	]
+}
