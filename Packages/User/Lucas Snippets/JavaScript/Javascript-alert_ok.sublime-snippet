@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+alert("${1:ok}");
+]]></content>
+    <tabTrigger>alert_ok</tabTrigger>
+    <scope>source.js</scope>
+    <description>ALERT_OK</description>
+</snippet>

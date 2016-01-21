@@ -1,19 +1,26 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
 	"installed_packages":
 	[
+		"Advanced CSV",
 		"Alignment",
 		"AlignTab",
 		"ApacheConf.tmLanguage",
+		"ApplySyntax",
 		"AutoFileName",
+		"Base Encoder",
+		"Bootstrap 3 Snippets",
 		"BracketHighlighter",
 		"BufferScroll",
 		"Color Highlighter",
 		"ColorPicker",
 		"Comment-Snippets",
+		"CSS Color Converter",
 		"CSS3",
+		"CSScomb",
 		"CSSFontFamily",
 		"DocBlockr",
 		"Emmet",
@@ -29,8 +36,11 @@
 		"JavaScriptNext - ES6 Syntax",
 		"jQuery",
 		"JsFormat",
+		"JSONLint",
+		"LESS",
 		"Line Endings Unify",
 		"LineEndings",
+		"LiveReload",
 		"Numix Theme",
 		"Open Folder",
 		"Open-Include",

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[<?${TM_PHP_OPEN_TAG:php}
+/*
+${0:$SELECTION}
+*/
+?>]]></content>
+    <tabTrigger>comment_php</tabTrigger>
+    <scope>source.php,text.html</scope>
+    <description>LUCAS &lt;?php /*(...)*/ ?&gt;</description>
+</snippet>
