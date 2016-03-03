@@ -18,6 +18,13 @@
 		"JavaScriptNext - ES6 Syntax",
 		"Vintage"
 	],
+	"ignored_words":
+	[
+		"☐",
+		"✔",
+		"✘",
+		"✄"
+	],
 	"indent_subsequent_lines": true,
 	"installed_dependencies":
 	[
