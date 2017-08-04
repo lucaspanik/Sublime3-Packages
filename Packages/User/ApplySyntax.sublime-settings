@@ -19,5 +19,6 @@
 
     // Put your custom syntax rules here:
     "syntaxes": [
+       "CSS3"
     ]
 }

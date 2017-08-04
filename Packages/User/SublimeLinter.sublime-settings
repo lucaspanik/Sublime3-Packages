@@ -23,7 +23,7 @@
         "passive_warnings": false,
         "paths": {
             "linux": [
-                "/usr/share/php/",
+                "/usr/bin/php/",
                 "/usr/lib/nodejs"
             ],
             "osx": [],
@@ -33,7 +33,9 @@
             ]
         },
         "python_paths": {
-            "linux": [],
+            "linux": [
+                "/usr/lib/python3.5/"
+            ],
             "osx": [],
             "windows": []
         },

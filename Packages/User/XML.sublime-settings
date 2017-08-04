@@ -4,8 +4,8 @@
 		"xslt",
 		"xml",
 		"config",
-		"xml.dist",
 		"svg",
-		"xsd"
+		"xsd",
+		"xml.dist"
 	]
 }

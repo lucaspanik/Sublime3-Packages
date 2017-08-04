@@ -5,17 +5,19 @@
 	"default_line_ending": "unix",
 	"detect_indentation": false,
 	"drag_text": true,
+	"draw_indent_guides": true,
 	"enable_tab_scrolling": true,
 	"ensure_newline_at_eof_on_save": false,
 	"fallback_encoding": "UTF-8",
-	"font_size": 10,
+	"font_size": 9,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": true,
 	"ignore_inodes": true,
 	"ignored_packages":
 	[
-		"JavaScriptNext - ES6 Syntax",
+		"CSS3",
+		"SublimeLinter-jshint",
 		"Vintage"
 	],
 	"ignored_words":
@@ -24,6 +26,11 @@
 		"✔",
 		"✘",
 		"✄"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
 	],
 	"indent_subsequent_lines": true,
 	"installed_dependencies":

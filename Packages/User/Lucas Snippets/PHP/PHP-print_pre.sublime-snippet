@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 echo '<pre>';
-print_r(${1:variable});
+print_r(${1:\$_POST});
 echo '</pre>';
 ]]></content>
     <tabTrigger>print_pre</tabTrigger>
